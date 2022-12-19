@@ -52,7 +52,7 @@ calico_rr
 2. Run the playbook
 
 ```
-ansible-playbook -i inventory/sample/hosts.ini  cluster.yml -b -v --private-key=~/.ssh/id_rsa -K
+ansible-playbook -i inventory/local/hosts.ini  cluster.yml -b -v --private-key=~/.ssh/id_rsa -K
 ```
 
 3. Connect to the clusters
