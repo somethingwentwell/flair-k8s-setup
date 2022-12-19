@@ -23,7 +23,7 @@ export VM_IP=<the VM IP>
 
 ## Set up Kubernetes clusters
 
-***This is a tailor-made Kubespray for private kvm cluster. Use the Kubespray config in this repo instead of the default/main branch from https://github.com/kubernetes-sigs/kubespray ***
+***This is a tailor-made Kubespray for private kvm cluster. Use the Kubespray config in this repo instead of the default/main branch from https://github.com/kubernetes-sigs/kubespray***
 
 1. Modify inventory/sample/inventory
 ```
