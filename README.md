@@ -27,6 +27,9 @@ virsh edit ${VM_NAME}
     </source>
   </hostdev>
 ```
+```
+virsh start ${VM_NAME}
+```
 
 ## Check VM IP
 
