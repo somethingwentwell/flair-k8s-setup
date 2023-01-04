@@ -61,8 +61,10 @@ lsmod | grep nouveau
 
 Install & verify Nvidia drivers
 ```
+sudo apt install build-essential
 wget https://storage.googleapis.com/nvidia-drivers-us-public/GRID/vGPU13.5/ NVIDIA-Linux-x86_64-470.161.03-grid.run
 chmod +x NVIDIA-Linux-x86_64-470.161.03-grid.run
+sudo ./NVIDIA-Linux-x86_64-470.161.03-grid.run
 nvidia-smi
 ```
 
